@@ -1,0 +1,19 @@
+<html>
+	<head>
+		<title>ContikiRPL</title>
+	</head>
+	<body>
+		<neighbors>
+			<neighbor>fe80::212:7400:1516:104a</neighbor>
+			<neighbor>fe80::212:7400:1508:7c2b</neighbor>
+		</neighbors>
+		<routes>
+			<route>aaaa::212:7400:1508:7c2b</route>
+			<route>aaaa::212:7400:1516:104a</route>
+		</routes>
+		<sensors>
+			<sensor>temp=29.76</sensor> 
+			<sensor>hum=35.09</sensor> 
+		</sensors>
+	</body>
+</html>
