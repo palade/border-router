@@ -2,7 +2,7 @@
 #Extension to Contiki's Border-router 
 
 ###Usage
-   Clone the repo on the machine which runs contiki and replace the contiki/examples/ipv6/native-border-router with the native-border-router folder from this repo.
+   Clone the repo on the machine which runs contiki and replace contiki/examples/ipv6/native-border-router with the native-border-router folder from this repo.
    
 ###Changes made    
 1. Retrieve the address of the http-server
