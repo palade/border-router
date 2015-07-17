@@ -10,3 +10,5 @@
  * A sample of the XML response can be seen in example-response.xml
 
 3. PropertyReader - parses this file and returns the address
+
+4. Modified slip-config.c to accommodate [getopt() bug on raspberryPi](https://www.raspberrypi.org/forums/viewtopic.php?f=33&t=33876)
