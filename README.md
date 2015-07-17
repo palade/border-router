@@ -5,8 +5,8 @@
  * It retrieves the http-server address 
  * Writes the address to a properties file in the user's home directory 
     
-2. The http-server returns the response in XML file to the index request.
- * The request to the root page of the server returns an XML response
+2. Return XML response
+ * The request to the root page (i.e., index.html or /) of the server returns an XML response
  * A sample of the XML response can be seen in example-response.xml
 
-
+3. PropertyReader - parses this file and returns the address
