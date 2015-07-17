@@ -73,7 +73,7 @@ slip_config_handle_arguments(int argc, char **argv)
   slip_config_verbose = 0;
 
   prog = argv[0];
-  while((c = getopt(argc, argv, "B:H:D:Lhs:t:v::d::a:p:T")) != -1) {
+  while(((c = getopt(argc, argv, "B:H:D:Lhs:t:v::d::a:p:T")) != -1) && (c != 255)) {
     switch(c) {
     case 'B':
       baudrate = atoi(optarg);
